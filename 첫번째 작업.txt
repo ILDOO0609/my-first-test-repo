@@ -1,0 +1,19 @@
+깃(git) -> 형상관리도구
+
+깃 허브 작업 순서
+1. git-hub에서 작업
+원격 레포지토리(remote-repository) 생성
+
+2. git에서 작업
+로컬 레포지토리(local-repository) 생성
+	2-1. 로컬 레포지토리로 새용할 폴더를 생성
+	2-2. 해당 폴더에 들어가서 마우스 우클릭 후 -> git bash here 클릭
+	2-3. (pc당 최초 한 번만) git 사용자 지정
+		2-3-1. git config --global user.name 		  (현재 pc의 계정 확인)
+		2-3-2. git config --global user.name "계정명"  (계정명으로 현재 pc의 계정 변경)
+		2-3-3. git config --global user.email        (현재 pc의 이메일 확인)
+		2-3-4. git config --global user.email "메일주소" (안에 적은 메일주소로 현재 pc의 이메일 변경)
+	2-4. git init 실행  -> 해당 폴더가 local repository 로 지정됨
+
+3. 원격 저장소와 로컬 저장소를 연결
+	git remote add origin "원격 url"
